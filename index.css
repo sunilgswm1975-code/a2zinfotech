@@ -48,41 +48,56 @@ ul{
 }
 .top{
     background-color:darkblue;
-    height: 100px;
+    height: 200px;
     width : 100%;
     color : white;
     padding: 20px;
 }
 .right{
-    border : 1px solid  rgb(25, 25, 250);
-    height: 350px;
-    width: 50%;
+     background-color:darkblue;
+     display: flex;
+    height: 325px;
+    width: 75%;
+    color:white;
+    flex-direction: column;
+    justify-content: center;
 }
 .left{
-    background-color:rgb(7, 7, 253);
-    height: 350px;
-    width: 50%;
+    background-color:darkblue;
+    height: 325px;
+    width: 25%;
     padding: 10px;
     color : white;
-    border-radius: 8px;
+    
 }
 .layout{
     display: flex;
     flex-wrap: wrap;
 }
 footer{
-    height: 150px;
+    height: 80px;
     width: auto;
-        background-color: navy;
-    color: white;
+    background-color: rgb(250, 246, 246);
+    color: black;
     display: flex;
     gap: 50px;
     text-align: start;
-    padding: 20px;
-
-
-}
+    padding: 10px;
+    }
 .course_list{
-   width: 175px;
+   width: 33%;
    
+}
+.courses{
+  margin-top: 30px; 
+    display: flex;
+    gap: 10px;
+   align-items: center;  /* vertically center */
+  justify-content: center; /* horizontally center (optional) */
+}
+#contact{
+    width: 33%;
+}
+#address{
+    width: 34%;
 }

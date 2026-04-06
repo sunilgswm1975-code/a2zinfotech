@@ -1,0 +1,36 @@
+*{padding: 0;
+margin : 0;
+}
+.upper{
+    background: linear-gradient(to right, #000080, #66ccff);
+    height: 75px;
+    width : 100%;
+    color : white;
+    padding: 20px;
+    text-align: center;
+
+    
+}
+.layout{
+    display: flex;
+    flex-wrap: wrap;
+}
+.md-photo{
+    background-color:darkblue;
+    min-height:325px;
+    width:25%;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+.description{
+    background-color:#001a66;
+    min-height:325px;
+    width:75%;
+    color:white;
+    padding:20px;
+    line-height:1.7;
+}
